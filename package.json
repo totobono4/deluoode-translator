@@ -1,0 +1,24 @@
+{
+  "name": "deluoode-translator",
+  "version": "1.0.0",
+  "description": "A free Deluoode translator module",
+  "main": "deluoode-translator.js",
+  "scripts": {
+    "start": "node deluoode-translator",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/totobono4/deluoode-translator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/totobono4/deluoode-translator/issues"
+  },
+  "homepage": "https://github.com/totobono4/deluoode-translator#readme",
+  "dependencies": {
+    "puppeteer": "^19.7.3"
+  }
+}
