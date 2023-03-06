@@ -9,8 +9,8 @@ class Deluooder {
     this.page = null
   }
 
-  async init ({ headless = true, slowMo = 0 }) {
-    this.browser = await puppeteer.launch({ headless, slowMo })
+  async init (options = { headless: true, slowMo: 0 }) {
+    this.browser = await puppeteer.launch(options)
     this.page = await this.browser.newPage()
 
     await this.page.goto('https://translate.google.fr/')
